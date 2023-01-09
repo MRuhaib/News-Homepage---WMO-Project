@@ -1,2 +1,2 @@
 # News-Homepage---WMO-Project
-Frontend mentor's new homepage project
+Frontend mentor's news homepage project
