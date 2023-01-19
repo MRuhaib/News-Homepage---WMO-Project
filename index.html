@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Frontend Mentor | News homepage</title>
+  <link rel = 'stylesheet' href = 'styles.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+  <div class="navbar">
+      <div class="logo"><img  src="assets/images/logo.svg"></div>  
+      <div><a href="home.asp">Home</a></div>      
+      <div><a href="new.asp">New</a></div>
+      <div><a href="popular.asp">Popular</a></div>
+      <div><a href="trending.asp">Trending</a></div>
+      <div class="lastDiv"><a href="categories.asp">Categories</a></div>
+  </div>
+
+</header>
+
+<main>
+
+  <div class="grid-container">
+
+    <div class= "FirstArticle">
+      <div>
+        <picture>
+          <source media="(min-width: 830px)" srcset="assets/images/image-web-3-desktop.jpg">
+          <img src="assets/images/image-web-3-mobile.jpg">
+        </picture>
+      </div>
+      <div class="FirstArticleFlexbox">
+        <div id="BrightFuture"><p>The Bright Future of Web 3.0?</p></div>
+        <div id="FirstArticleTextandLink">
+          <p id="FirstArticleText">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?</p><br>
+          <a href="readmore.asp">READ MORE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class= "New" >
+      <h2>New</h2>
+      <div class="NewArticles">
+        <div>
+          <a href="link.asp">Hydrogen VS Electric Cars</a>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <hr>
+        <div>
+          <a href="link.asp">The Downsides of AI Artistry</a>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <hr>
+        <div>
+          <a href="link.asp">Is VC Funding Drying Up?</a>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class= "ThreeArticles" >
+      <div class="article1">
+        <div class="img1">
+          <img src="assets/images/image-retro-pcs.jpg">
+        </div>
+        <div class="text01">
+          <h1>01</h1>
+          <a href="link.asp">Reviving Retro PCs</a>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="article2">
+        <div class="img2">
+          <img src="assets/images/image-top-laptops.jpg">
+        </div>
+        <div class="text02">
+          <h1>02</h1>
+          <a href="link.asp">Top 10 Laptops of 2022</a>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="article3">
+        <div class="img3">
+          <img src="assets/images/image-gaming-growth.jpg">
+        </div>
+        <div class="text03">
+          <h1>03</h1>
+          <a href="link.asp">The Growth of Gaming</a>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+</main>
+
+</body>
+</html>
